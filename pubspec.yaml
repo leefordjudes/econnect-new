@@ -1,0 +1,29 @@
+name: econnect
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.5
+  google_fonts: ^6.2.0
+  intl: ^0.19.0
+  window_manager: ^0.3.8
+  aes256gcm: ^1.0.1
+  get_storage: ^2.1.1
+
+  # Local Packages
+  server:
+    path: packages/server
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
